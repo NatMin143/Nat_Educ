@@ -1,0 +1,68 @@
+@media screen and (max-width:767px){
+    .login-register {
+        margin-left: 55%;
+}
+}
+
+@media screen and (max-width:320px){
+    .login-register{
+        margin-left: 35%;
+    }
+
+    .foot{
+        padding-left: 20px;
+    }
+
+    .em-inp-wrap input{
+        font-size: 8px;
+    }
+
+    .em-inp-wrap button{
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width:767px),
+screen and (max-width:320px) {
+    .mn-bt {
+        display: block;
+    }
+
+    .logo {
+        padding-left: 0px;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    .l-des {
+        font-size: 10px !important;
+    }
+
+    .message {
+        margin-left: 10%;
+    }
+
+    .join-now {
+        margin-left: 10%;
+    }
+
+    .join-now button {
+        width: 60%;
+    }
+
+    .top-body-wrap {
+        background-position: center;
+    }
+
+    .search-bar-con input {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:1450px) {
+    .top-body-wrap {
+        height: 750px;
+    }
+}
